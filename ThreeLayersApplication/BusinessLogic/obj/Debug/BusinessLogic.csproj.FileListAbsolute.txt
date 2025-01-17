@@ -1,0 +1,14 @@
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\bin\Debug\BusinessObject.dll
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\bin\Debug\DataAccess1.dll
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\bin\Debug\BusinessObject.pdb
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\bin\Debug\DataAccess1.pdb
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\bin\Debug\DataAccess1.dll.config
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\obj\Debug\BusinessLogic.csproj.AssemblyReference.cache
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\obj\Debug\Business.CF5D6E35.Up2Date
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessLogic\obj\Debug\BusinessLogic.pdb

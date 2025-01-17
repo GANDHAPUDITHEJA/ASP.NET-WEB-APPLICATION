@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MY SELF\\certificates\\ThreeLayersApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E54ED7AA-545E-4E8B-9358-D85E17C29C91}|DataAccess1\\DataAccess1.csproj|c:\\my self\\certificates\\threelayersapplication\\dataaccess1\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E54ED7AA-545E-4E8B-9358-D85E17C29C91}|DataAccess1\\DataAccess1.csproj|solutionrelative:dataaccess1\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F22752B9-E1EE-4A25-9C3A-FE5C9CD40323}|BusinessObject\\BusinessObject.csproj|C:\\MY SELF\\certificates\\ThreeLayersApplication\\businessobject\\userbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F22752B9-E1EE-4A25-9C3A-FE5C9CD40323}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\userbo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEF72C0-9196-4CBE-A74A-315E7F5A2B2E}|BusinessLogic\\BusinessLogic.csproj|C:\\MY SELF\\certificates\\ThreeLayersApplication\\businesslogic\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEF72C0-9196-4CBE-A74A-315E7F5A2B2E}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F22752B9-E1EE-4A25-9C3A-FE5C9CD40323}|BusinessObject\\BusinessObject.csproj|C:\\MY SELF\\certificates\\ThreeLayersApplication\\businessobject\\custombo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F22752B9-E1EE-4A25-9C3A-FE5C9CD40323}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\custombo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserBO.cs",
+              "DocumentMoniker": "C:\\MY SELF\\certificates\\ThreeLayersApplication\\BusinessObject\\UserBO.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\UserBO.cs",
+              "ToolTip": "C:\\MY SELF\\certificates\\ThreeLayersApplication\\BusinessObject\\UserBO.cs",
+              "RelativeToolTip": "BusinessObject\\UserBO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T05:26:28.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomBO.cs",
+              "DocumentMoniker": "C:\\MY SELF\\certificates\\ThreeLayersApplication\\BusinessObject\\CustomBO.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\CustomBO.cs",
+              "ToolTip": "C:\\MY SELF\\certificates\\ThreeLayersApplication\\BusinessObject\\CustomBO.cs",
+              "RelativeToolTip": "BusinessObject\\CustomBO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T05:26:27.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserBL.cs",
+              "DocumentMoniker": "C:\\MY SELF\\certificates\\ThreeLayersApplication\\BusinessLogic\\UserBL.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\UserBL.cs",
+              "ToolTip": "C:\\MY SELF\\certificates\\ThreeLayersApplication\\BusinessLogic\\UserBL.cs",
+              "RelativeToolTip": "BusinessLogic\\UserBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T05:26:21.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "C:\\MY SELF\\certificates\\ThreeLayersApplication\\DataAccess1\\UserDAL.cs",
+              "RelativeDocumentMoniker": "DataAccess1\\UserDAL.cs",
+              "ToolTip": "C:\\MY SELF\\certificates\\ThreeLayersApplication\\DataAccess1\\UserDAL.cs",
+              "RelativeToolTip": "DataAccess1\\UserDAL.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwCsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T18:41:55.073Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

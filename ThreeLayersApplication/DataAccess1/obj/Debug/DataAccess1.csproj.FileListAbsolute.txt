@@ -1,0 +1,14 @@
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\bin\Debug\DataAccess1.dll.config
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\bin\Debug\DataAccess1.dll
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\bin\Debug\DataAccess1.pdb
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\bin\Debug\BusinessObject.dll
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\bin\Debug\EntityFramework.dll
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\bin\Debug\EntityFramework.SqlServer.dll
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\bin\Debug\BusinessObject.pdb
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\bin\Debug\EntityFramework.xml
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\bin\Debug\EntityFramework.SqlServer.xml
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\obj\Debug\DataAccess1.csproj.AssemblyReference.cache
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\obj\Debug\DataAccess1.csproj.CoreCompileInputs.cache
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\obj\Debug\DataAcce.8DF1A34A.Up2Date
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\obj\Debug\DataAccess1.dll
+C:\MY SELF\certificates\ThreeLayersApplication\DataAccess1\obj\Debug\DataAccess1.pdb

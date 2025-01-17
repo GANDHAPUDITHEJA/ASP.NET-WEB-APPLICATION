@@ -1,0 +1,6 @@
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessObject\bin\Debug\BusinessObject.dll
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessObject\bin\Debug\BusinessObject.pdb
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessObject\obj\Debug\BusinessObject.csproj.AssemblyReference.cache
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessObject\obj\Debug\BusinessObject.csproj.CoreCompileInputs.cache
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessObject\obj\Debug\BusinessObject.dll
+C:\MY SELF\certificates\ThreeLayersApplication\BusinessObject\obj\Debug\BusinessObject.pdb
