@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MY SELF\\certificates\\csharpcornermeet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7629B0F-31C3-46FC-9CD5-480D696108B4}|csharpcornermeet.csproj|c:\\my self\\certificates\\csharpcornermeet\\demo2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F7629B0F-31C3-46FC-9CD5-480D696108B4}|csharpcornermeet.csproj|solutionrelative:demo2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7629B0F-31C3-46FC-9CD5-480D696108B4}|csharpcornermeet.csproj|C:\\MY SELF\\certificates\\csharpcornermeet\\demo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F7629B0F-31C3-46FC-9CD5-480D696108B4}|csharpcornermeet.csproj|solutionrelative:demo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Demo2.aspx",
+              "DocumentMoniker": "C:\\MY SELF\\certificates\\csharpcornermeet\\Demo2.aspx",
+              "RelativeDocumentMoniker": "Demo2.aspx",
+              "ToolTip": "C:\\MY SELF\\certificates\\csharpcornermeet\\Demo2.aspx*",
+              "RelativeToolTip": "Demo2.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-22T10:27:07.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Demo.aspx",
+              "DocumentMoniker": "C:\\MY SELF\\certificates\\csharpcornermeet\\Demo.aspx",
+              "RelativeDocumentMoniker": "Demo.aspx",
+              "ToolTip": "C:\\MY SELF\\certificates\\csharpcornermeet\\Demo.aspx",
+              "RelativeToolTip": "Demo.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-22T08:43:15.621Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
