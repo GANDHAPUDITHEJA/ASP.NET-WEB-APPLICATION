@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MY SELF\\certificates\\Task_5_new\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45DEB04F-D718-4711-9503-DDDD544B0693}|Task_5_new.csproj|c:\\my self\\certificates\\task_5_new\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45DEB04F-D718-4711-9503-DDDD544B0693}|Task_5_new.csproj|solutionrelative:default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DEB04F-D718-4711-9503-DDDD544B0693}|Task_5_new.csproj|C:\\MY SELF\\certificates\\Task_5_new\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{45DEB04F-D718-4711-9503-DDDD544B0693}|Task_5_new.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DEB04F-D718-4711-9503-DDDD544B0693}|Task_5_new.csproj|C:\\MY SELF\\certificates\\Task_5_new\\userinforeport.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{45DEB04F-D718-4711-9503-DDDD544B0693}|Task_5_new.csproj|solutionrelative:userinforeport.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45DEB04F-D718-4711-9503-DDDD544B0693}|Task_5_new.csproj|C:\\MY SELF\\certificates\\Task_5_new\\dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{45DEB04F-D718-4711-9503-DDDD544B0693}|Task_5_new.csproj|solutionrelative:dataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\MY SELF\\certificates\\Task_5_new\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "C:\\MY SELF\\certificates\\Task_5_new\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-26T07:49:01.3Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\MY SELF\\certificates\\Task_5_new\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Default.aspx.cs",
+              "ToolTip": "C:\\MY SELF\\certificates\\Task_5_new\\Default.aspx.cs",
+              "RelativeToolTip": "Default.aspx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T11:46:26.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserInfoReport.rdlc [Design]",
+              "DocumentMoniker": "C:\\MY SELF\\certificates\\Task_5_new\\UserInfoReport.rdlc",
+              "RelativeDocumentMoniker": "UserInfoReport.rdlc",
+              "ToolTip": "C:\\MY SELF\\certificates\\Task_5_new\\UserInfoReport.rdlc [Design]",
+              "RelativeToolTip": "UserInfoReport.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-01-26T12:05:04.391Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataSet1.xsd",
+              "DocumentMoniker": "C:\\MY SELF\\certificates\\Task_5_new\\DataSet1.xsd",
+              "RelativeDocumentMoniker": "DataSet1.xsd",
+              "ToolTip": "C:\\MY SELF\\certificates\\Task_5_new\\DataSet1.xsd",
+              "RelativeToolTip": "DataSet1.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-01-26T13:16:17.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
