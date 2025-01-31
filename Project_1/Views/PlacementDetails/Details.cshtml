@@ -1,0 +1,58 @@
+﻿@model Project_1.Models.PlacementDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PlacementDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AcademicYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AcademicYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CompanyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CompanyName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RegistrationStart)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegistrationStart)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RegistrationEnd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegistrationEnd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Criteria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Criteria)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PlacementId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

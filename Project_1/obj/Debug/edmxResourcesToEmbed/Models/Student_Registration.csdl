@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PlacementModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="StudentRegistration">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="Int32" Nullable="false" />
+    <Property Name="PlacementId" Type="Int32" />
+    <Property Name="RegisteredOn" Type="DateTime" Precision="0" />
+    <Property Name="Status" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="PlacementEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="StudentRegistrations" EntityType="Self.StudentRegistration" />
+  </EntityContainer>
+</Schema>

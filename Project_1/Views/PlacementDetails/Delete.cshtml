@@ -1,0 +1,64 @@
+﻿@model Project_1.Models.PlacementDetail
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PlacementDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AcademicYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AcademicYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CompanyName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CompanyName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RegistrationStart)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegistrationStart)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RegistrationEnd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegistrationEnd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Criteria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Criteria)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
