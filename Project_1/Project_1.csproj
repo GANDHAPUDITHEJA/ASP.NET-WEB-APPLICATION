@@ -135,6 +135,24 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\InterviewSchedule.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InterviewSchedule.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\InterviewSchedule.cs">
+      <DependentUpon>InterviewSchedule.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\InterviewSchedule.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InterviewSchedule.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\InterviewSchedule1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InterviewSchedule.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Placement.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -193,6 +211,16 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\InterviewSchedule.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>InterviewSchedule.edmx</DependentUpon>
+      <LastGenOutput>InterviewSchedule.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\InterviewSchedule.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>InterviewSchedule.edmx</DependentUpon>
+      <LastGenOutput>InterviewSchedule1.cs</LastGenOutput>
+    </Content>
     <Content Include="Models\Placement.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Placement.Context.cs</LastGenOutput>
@@ -215,6 +243,13 @@
     </EntityDeploy>
     <Content Include="Models\Placement.edmx.diagram">
       <DependentUpon>Placement.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\InterviewSchedule.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>InterviewSchedule.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\InterviewSchedule.edmx.diagram">
+      <DependentUpon>InterviewSchedule.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
@@ -264,6 +299,9 @@
     </Content>
     <Content Include="Views\Placement\Student_Registration.cshtml" />
     <Content Include="Views\Placement\RegisterStudent.cshtml" />
+    <Content Include="Views\Placement\ScheduleInterview.cshtml" />
+    <Content Include="Views\Placement\UpdateInterview.cshtml" />
+    <Content Include="Views\Placement\ViewInterviews.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

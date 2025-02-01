@@ -1,0 +1,67 @@
+﻿@model Project_1.Models.InterviewSchedule
+
+@{
+    ViewBag.Title = "Update Interview";
+}
+
+<h2>Update Interview</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@using (Html.BeginForm("UpdateInterview", "Placement", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <!-- Hidden field for InterviewScheduleId -->
+    @Html.HiddenFor(model => model.InterviewScheduleId)
+
+    <!-- Interview ID (Read-only) -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.InterviewScheduleId)
+        @Html.TextBoxFor(model => model.InterviewScheduleId, new { @class = "form-control", @readonly = "readonly" })
+    </div>
+
+    <!-- Student ID (Read-only) -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.StudentId)
+        @Html.TextBoxFor(model => model.StudentId, new { @class = "form-control", @readonly = "readonly" })
+    </div>
+
+    <!-- Schedule Date (Read-only) -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.ScheduleDate)
+        @Html.TextBoxFor(model => model.ScheduleDate, "{0:dd-MM-yyyy HH:mm}", new { @class = "form-control", @readonly = "readonly" })
+    </div>
+
+    <!-- Is Appeared -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.IsAppeared)
+        @Html.CheckBoxFor(model => model.IsAppeared, new { @class = "form-check-input" })
+    </div>
+
+    <!-- Is Selected -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.IsSelected)
+        @Html.CheckBoxFor(model => model.IsSelected, new { @class = "form-check-input" })
+    </div>
+
+    <!-- Package -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.Package)
+        @Html.TextBoxFor(model => model.Package, new { @class = "form-control", type = "number", step = "0.01" })
+    </div>
+
+    <!-- Joining Date -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.JoiningDate)
+        @Html.TextBoxFor(model => model.JoiningDate, "{0:dd-MM-yyyy}", new { @class = "form-control", type = "date" })
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary">Update Interview</button>
+}

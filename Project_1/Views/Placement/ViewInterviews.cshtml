@@ -1,0 +1,57 @@
+﻿@model List<Project_1.Models.InterviewSchedule>
+@{
+    ViewBag.Title = "View Interviews";
+}
+
+<h2>View Interviews</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Interview ID</th>
+            <th>Student ID</th>
+            <th>Schedule Date</th>
+            <th>Appeared</th>
+            <th>Selected</th>
+            <th>Package</th>
+            <th>Joining Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var interview in Model)
+        {
+            <tr>
+                <td>@interview.InterviewScheduleId</td>
+                <td>@interview.StudentId</td>
+                <td>@(interview.ScheduleDate.ToString("yyyy-MM-dd HH:mm") ?? "N/A")</td>
+                <td>@(interview.IsAppeared ? "Yes" : "No")</td>
+                <td>@(interview.IsSelected ? "Yes" : "No")</td>
+                <td>@(interview.Package.HasValue ? interview.Package.Value.ToString("F2") : "N/A")</td>
+                <td>@(interview.JoiningDate.HasValue ? interview.JoiningDate.Value.ToString("yyyy-MM-dd") : "N/A")</td>
+                <td>
+                    <a href="@Url.Action("UpdateInterview", "Placement", new { interviewId = interview.InterviewScheduleId })" class="btn btn-primary btn-sm">Update</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Link to Schedule New Interview -->
+<div style="margin-top: 20px;">
+    <a href="@Url.Action("ScheduleInterview", "Placement")" class="btn btn-primary">Schedule New Interview</a>
+</div>

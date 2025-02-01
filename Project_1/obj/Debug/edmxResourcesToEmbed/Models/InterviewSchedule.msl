@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PlacementModel2StoreContainer" CdmEntityContainer="PlacementEntities2">
+    <EntitySetMapping Name="InterviewSchedules">
+      <EntityTypeMapping TypeName="PlacementModel2.InterviewSchedule">
+        <MappingFragment StoreEntitySet="InterviewSchedule">
+          <ScalarProperty Name="InterviewScheduleId" ColumnName="InterviewScheduleId" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="ScheduleDate" ColumnName="ScheduleDate" />
+          <ScalarProperty Name="IsAppeared" ColumnName="IsAppeared" />
+          <ScalarProperty Name="IsSelected" ColumnName="IsSelected" />
+          <ScalarProperty Name="Package" ColumnName="Package" />
+          <ScalarProperty Name="JoiningDate" ColumnName="JoiningDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

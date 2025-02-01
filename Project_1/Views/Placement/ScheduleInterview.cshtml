@@ -1,0 +1,58 @@
+﻿@model Project_1.Models.InterviewSchedule
+
+@{
+    ViewBag.Title = "Schedule Interview";
+}
+
+<h2>Schedule Interview</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Message"]
+    </div>
+}
+
+@using (Html.BeginForm("ScheduleInterview", "Placement", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <!-- Interview Schedule ID -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.InterviewScheduleId)
+        @Html.TextBoxFor(model => model.InterviewScheduleId, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.InterviewScheduleId, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Student ID -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.StudentId)
+        @Html.TextBoxFor(model => model.StudentId, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.StudentId, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Schedule Date -->
+    <div class="form-group">
+        @Html.LabelFor(model => model.ScheduleDate)
+        @Html.TextBoxFor(model => model.ScheduleDate, new { @class = "form-control", type = "datetime-local" })
+        @Html.ValidationMessageFor(model => model.ScheduleDate, "", new { @class = "text-danger" })
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary">Schedule Interview</button>
+}
+
+<!-- Link to Update Interview -->
+<div style="margin-top: 20px;">
+    <a href="@Url.Action("UpdateInterview", "Placement")" class="btn btn-success">Update Interview</a>
+</div>
+<div style="margin-top: 20px;">
+    <a href="@Url.Action("ViewInterviews", "Placement")" class="btn btn-success">View Interview</a>
+</div>
